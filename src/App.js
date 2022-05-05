@@ -60,6 +60,7 @@ function App() {
   return (
     <div className="App">
       <div className="current-goblin quarter">
+        Build Your Own Goblin
         <Goblin
           goblin={{ name: goblinFormName, hp: goblinFormHP, color: goblinFormColor }}
           // {({ goblinFormName }, { goblinFormHP }, { goblinFormColor })}
