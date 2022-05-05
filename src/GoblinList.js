@@ -7,9 +7,7 @@ export default function GoblinList({ goblins, handleDeleteGoblin }) {
       {goblins.map((goblin, i) => (
         <Goblin
           key={`${goblin.name}-${goblin.hp}-${goblin.color}-${i}`}
-          name={goblin.name}
-          hp={goblin.hp}
-          color={goblin.color}
+          goblin={goblin}
           handleDeleteGoblin={handleDeleteGoblin}
         />
       ))}
